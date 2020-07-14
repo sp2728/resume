@@ -1,0 +1,29 @@
+.jumbotron{
+    background-color: rgb(65, 164, 245, 0.9);
+}
+
+.hireMe{
+    background-color: rgba(22, 101, 197, 0.9);
+    color: white;
+}
+
+#skillsContent{
+    background-color: whitesmoke;
+}
+
+#skillsList{
+    list-style-type: square;
+} 
+
+.skillsBlock{
+    background-color: white;
+    margin: 20px;
+}
+
+.skills{
+    padding: 5px;
+}
+
+.skillsLogo{
+    font-size:50px;
+}
