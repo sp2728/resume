@@ -1,3 +1,7 @@
 nav{
     background-color: rgba(22, 101, 197, 0.9);
 }
+
+.active {
+    border-bottom:1px solid blanchedalmond;
+}

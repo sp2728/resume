@@ -10,7 +10,7 @@ const routes: Routes = [
     path:'', redirectTo:'about', pathMatch:'full'
   },
   {
-    path:'contact', component:ContactComponent
+    path:'contact', component:ContactComponent,pathMatch: 'full'
   }
 ];
 

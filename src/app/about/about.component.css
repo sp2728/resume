@@ -7,6 +7,10 @@
     color: white;
 }
 
+.hireMe:hover{
+    background-color: rgba(4, 62, 134, 0.9);
+}
+
 #skillsContent{
     background-color: whitesmoke;
 }
@@ -26,4 +30,19 @@
 
 .skillsLogo{
     font-size:50px;
+}
+
+.projectCards{
+    transition: transform .2s;
+    width: 18rem;
+    height: 18rem;
+    margin-bottom: 20px;
+}
+
+.projectCards:hover{
+    transform: scale(1.05);
+}
+
+#certificationContent{
+    background-color: whitesmoke;
 }
