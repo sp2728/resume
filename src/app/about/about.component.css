@@ -1,5 +1,6 @@
 .jumbotron{
     background-color: rgb(65, 164, 245, 0.9);
+    margin-bottom: 0;
 }
 
 .hireMe{
@@ -11,38 +12,124 @@
     background-color: rgba(4, 62, 134, 0.9);
 }
 
-#skillsContent{
+#skills{
     background-color: whitesmoke;
+    min-height: 70vh;
+}
+
+#skillsContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #skillsList{
     list-style-type: square;
+    display: flex;
+    flex-direction: column;
 } 
+
+.card-text{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+}
 
 .skillsBlock{
     background-color: white;
-    margin: 20px;
-}
-
-.skills{
-    padding: 5px;
+    width: 250px;
+    margin-bottom: 20px;
 }
 
 .skillsLogo{
     font-size:50px;
 }
 
+#projectContent{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .projectCards{
-    transition: transform .2s;
+    transition: transform .5s;
     width: 18rem;
     height: 18rem;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color:black;
 }
 
 .projectCards:hover{
     transform: scale(1.05);
 }
 
-#certificationContent{
+
+#certification{
     background-color: whitesmoke;
+    min-height: 50vh;
+}
+
+#title{
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+#certification #certificationContent{
+    display: grid;
+    place-items: center;
+}
+
+#certificationContent .card{
+    padding: 20px;
+    margin-bottom: 20px;
+    min-width: 60%;
+}
+
+#certificationContent .card ul li{
+    text-align: left;
+    line-height: 2em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+#certificationContent .card ul{
+    list-style-type: square;
+}
+
+#experience{
+    min-height: 50vh;
+}
+
+#experience #experienceContent{
+    display: grid;
+    place-items: center;
+}
+
+#experience #experienceContent .card{
+    padding: 20px;
+    margin-bottom: 20px;
+    min-width: 60%;
+}
+
+#experience #experienceContent .card #experienceTitle{
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+#experience #experienceContent .card #experiencePosition{
+    display: flex;
+    justify-content:space-between;
+}
+
+#experience #experienceContent .card ul li{
+    text-align: left;
+    line-height: 1.5em;
+    letter-spacing: 1.5px;
+    font-weight: 500;
 }
